@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    @apply bg-slate-100
+}
+
+.cont{
+    @apply w-full px-[1rem] md:w-[80%] md:px-0 mx-auto;
+}
